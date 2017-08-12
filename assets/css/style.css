@@ -1,48 +1,194 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* CONTAINER */
+*
+{
+    margin: 0;
+    padding: 0;
+}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+#header
+{
+    width: 100%;
+    background-color: white;
+    height: 105px;
+    border-bottom:2px solid #cccccc;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+.column-left
+{
+    float: left;
+    width: 620px;
+    margin-left:15%;
 }
-body {
-	line-height: 1;
+
+.column-right
+{
+    float: right;
+    width: 270px;
+    margin-right:15%;
 }
-ol, ul {
-	list-style: none;
+
+/* HEADER */
+#header h1
+{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    background-color: #4aaaa5;
+    width: 75%;
+    height: 70px;
+    text-align: center;
+    padding-top: 35px;
 }
-blockquote, q {
-	quotes: none;
+
+#header #navigation
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 45px;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+#header #navigation a
+{
+    color: grey;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    font-size: 14pt;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+#header #navigation a:nth-child(2)
+{
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
 }
+
+#header #navigation a:hover
+{
+    color:black;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+/* MAIN */
+#main
+{
+    padding-top: 50px;
+    height: 564px;
+    background-image: url(../images/shattered_2.png);
+    width: 100%;
+}
+
+#main img
+{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+#main .column-left
+{
+    border:1px solid #dddddd;
+    padding: 30px;
+    background-color: white;
+}
+
+#main h1
+{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+#main p
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-align: justify;
+    line-height: 35px;
+}
+
+#main .column-right
+{
+    border:1px solid #dddddd;
+    padding: 30px;
+    background-color: white;
+    width: 225px;
+}
+
+#main .column-right h2
+{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+#main .column-right img
+{
+    width: 55px;
+    height: 55px;
+}
+
+/* FOOTER */
+
+#footer
+{
+    width: 100%;
+    background-color: #666666;
+    height: 95px;
+    border-top:10px solid #4aaaa5;
+}
+
+#footer p
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    line-height: 35px;
+    color: #777777;
+    padding: 30px;
+}
+
+/***********************
+        CONTACT
+***********************/
+
+#form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.message{
+    text-align: left;
+    width: 620px;
+    height: 180px;
+}
+
+.input{
+    text-align: left;
+    font-size: 18px;
+    width: 620px;
+    height: 20px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
