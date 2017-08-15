@@ -1,4 +1,4 @@
-***Andre A Gunawan Portfolio***
+Andre A Gunawan Portfolio
 This project about my background and my portfolio of my projects from the past.
 
 ***Getting Started***
